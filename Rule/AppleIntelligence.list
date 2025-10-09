@@ -1,0 +1,11 @@
+# NAME: AppleIntelligence
+# AUTHOR: ClearLuv
+# REPO: https://github.com/ClearLuv/iOS_collection
+# UPDATED: 2025-10-09
+# DOMAIN: 4
+# TOTAL: 4
+
+DOMAIN,apple-relay.apple.com
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,apple-relay.fastly-edge.com
+DOMAIN,gspe1-ssl.ls.apple.com

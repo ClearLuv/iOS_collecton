@@ -10,7 +10,7 @@
 * **LoonPlugin** 
   * 包含自用Loon插件
 * **Rule**    
-  * 包含 `AppleDownload` `ClubSim` `DMM` `Fanza` `Telegram` `TruthSocial` 远程规则集
+  * 包含 `AppleDownload` `AppleIntelligence` `ClubSim` `DMM` `Fanza` `Telegram` `TruthSocial` 远程规则集
 * **sgmodule**  
   * 包含自用Surge（Shadowrocket）模块
 
@@ -23,6 +23,9 @@
 
 ```ini
 https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/AppleDownload.list, policy=[Replace with your Policy Group], tag=AppleDownload,enabled=true
+```
+```ini
+https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/AppleIntelligence.list, policy=[Replace with your Policy Group], tag=AppleIntelligence,enabled=true
 ```
 ```ini
 https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/ClubSim.list, policy=[Replace with your HK Policy Group], tag=ClubSim,enabled=true
@@ -53,6 +56,9 @@ https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/TruthSocial.l
 RULE-SET,https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/AppleDownload.list, [Replace with your Policy Group]
 ```
 ```ini
+RULE-SET,https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/AppleIntelligence.list, [Replace with your US Policy Group]
+```
+```ini
 RULE-SET,https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/ClubSim.list, [Replace with your HK Policy Group]
 ```
 ```ini
@@ -77,6 +83,7 @@ RULE-SET,https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/Trut
 
 
 - 建议**AppleDownload**的流量分配给公共代理服务或低倍率结算流量消耗的节点
+- 建议**AppleIntelligence**使用🇺🇸策略组,Surge需要启用`extended-matching`参数
 - 建议**ClubSim**使用🇭🇰策略组
 - 建议**Fanza**使用🇯🇵策略组
 - 建议**TelegramNL**使用🇪🇺策略组—推荐DC2&DC4用户使用
@@ -111,10 +118,3 @@ RULE-SET,https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/Trut
 
 
 
-<<<<<<< HEAD
-=======
-
-
-
-
->>>>>>> d98e6e6 (test)
