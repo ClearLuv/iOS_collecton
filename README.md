@@ -43,7 +43,10 @@ https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/TelegramNL.li
 https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/TelegramSG.list, policy=[Replace with your SG Policy Group],tag=TelegramSG,enabled=true
 ```
 ```ini
-https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/TelegramUS.list, policy=[Replace with your US Policy Group],tag=TelegramNL,enabled=true
+https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/TelegramUS.list, policy=[Replace with your US Policy Group],tag=TelegramUS,enabled=true
+```
+```ini
+https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/T-mobile.list, policy=[Replace with your US Policy Group],tag=T-mobile,enabled=true
 ```
 ```ini
 https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/TruthSocial.list, policy=[Replace with your US Policy Group],tag=Truth Social,enabled=true
@@ -77,6 +80,9 @@ RULE-SET,https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/Tele
 RULE-SET,https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/TelegramUS.list, [Replace with your US Policy Group]
 ```
 ```ini
+RULE-SET,https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/T-mobile.list, [Replace with your US Policy Group]
+```
+```ini
 RULE-SET,https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/TruthSocial.list, [Replace with your US Policy Group]
 ```
 
@@ -89,6 +95,7 @@ RULE-SET,https://raw.githubusercontent.com/ClearLuv/iOS_collecton/main/Rule/Trut
 - 建议**TelegramNL**使用🇪🇺策略组—推荐DC2&DC4用户使用
 - 建议**TelegramSG**使用🇸🇬策略组—推荐DC5用户使用
 - 建议**TelegramUS**使用🇺🇸策略组—推荐DC1&DC3用户使用
+- 建议**T-mobile**使用🇺🇸策略组
 - 建议**TruthSocial**使用🇺🇸策略组
 
 

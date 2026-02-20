@@ -1,0 +1,22 @@
+# NAME: T-mobile
+# AUTHOR: bunizao
+# REPO: https://github.com/ClearLuv/iOS_collecton
+# UPDATED: 2026-02-20
+# DOMAIN: 8
+# IP-ASN: 3
+# TOTAL: 11
+
+
+IP-CIDR,66.94.0.0/19
+IP-CIDR,206.29.177.36/32
+IP-CIDR,208.54.0.0/16  
+
+DOMAIN-SUFFIX,crl.t-mobile.com
+DOMAIN-SUFFIX,eas3.msg.t-mobile.com
+DOMAIN-SUFFIX,mascns.t-mobile.com
+DOMAIN-SUFFIX,ns.sipgeo.t-mobile.com
+
+DOMAIN,epdg.epc.mnc240.mcc310.pub.3gppnetwork.org
+DOMAIN,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+DOMAIN,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+DOMAIN,ss.epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org
